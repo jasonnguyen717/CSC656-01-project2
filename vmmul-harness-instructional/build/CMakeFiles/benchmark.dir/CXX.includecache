@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/benchmark.cpp
+algorithm
+-
+chrono
+-
+iomanip
+-
+iostream
+-
+random
+-
+vector
+-
+cmath
+-
+cblas.h
+-
+string.h
+-
+
