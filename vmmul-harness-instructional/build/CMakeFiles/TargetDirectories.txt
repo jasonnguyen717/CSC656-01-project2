@@ -1,7 +1,10 @@
 /global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/build/CMakeFiles/rebuild_cache.dir
+/global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/build/CMakeFiles/benchmark-openmp-nested.dir
 /global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/build/CMakeFiles/benchmark-openmp.dir
+/global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/build/CMakeFiles/benchmark-openmp-outer.dir
 /global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/build/CMakeFiles/benchmark-blas.dir
 /global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/build/CMakeFiles/edit_cache.dir
 /global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/build/CMakeFiles/benchmark-vectorized.dir
 /global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/build/CMakeFiles/benchmark-basic.dir
+/global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/build/CMakeFiles/benchmark-openmp-inner.dir
 /global/homes/j/jnguyen/CSC656-01-project2/vmmul-harness-instructional/build/CMakeFiles/benchmark.dir

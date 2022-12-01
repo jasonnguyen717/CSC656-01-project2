@@ -31,7 +31,7 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 CMAKE_CRAYPE_LINKTYPE:STRING=
 
 //saved value of LOADEDMODULES environment variable
-CMAKE_CRAYPE_LOADEDMODULES:STRING=modules/3.2.11.4:darshan/3.4.0:craype-network-aries:intel/19.1.2.254:craype/2.7.10:cray-libsci/20.09.1:udreg/2.3.2-7.0.3.1_3.24__g5f0d670.ari:ugni/6.0.14.0-7.0.3.1_6.11__g8101a58.ari:pmi/5.0.17:dmapp/7.1.1-7.0.3.1_3.28__g93a7e9f.ari:gni-headers/5.0.12.0-7.0.3.1_3.15__gd0d73fe.ari:xpmem/2.2.27-7.0.3.1_3.17__gada73ac.ari:job/2.2.4-7.0.3.1_3.23__g36b56f4.ari:dvs/2.12_2.2.224-7.0.3.1_3.23__gc77db2af:alps/6.6.67-7.0.3.1_3.29__gb91cd181.ari:rca/2.2.20-7.0.3.1_3.27__g8e3fb5b.ari:atp/3.14.9:perftools-base/21.12.0:PrgEnv-intel/6.0.10:craype-haswell:cray-mpich/7.7.19:craype-hugepages2M:Base-opts/2.4.142-7.0.3.1_3.13__g8f27585.ari
+CMAKE_CRAYPE_LOADEDMODULES:STRING=modules/3.2.11.4:darshan/3.4.0:craype-network-aries:intel/19.1.2.254:craype/2.7.10:cray-libsci/20.09.1:udreg/2.3.2-7.0.3.1_3.26__g5f0d670.ari:ugni/6.0.14.0-7.0.3.1_6.12__g8101a58.ari:pmi/5.0.17:dmapp/7.1.1-7.0.3.1_3.30__g93a7e9f.ari:gni-headers/5.0.12.0-7.0.3.1_3.16__gd0d73fe.ari:xpmem/2.2.27-7.0.3.1_3.18__gada73ac.ari:job/2.2.4-7.0.3.1_3.24__g36b56f4.ari:dvs/2.12_2.2.224-7.0.3.1_3.24__gc77db2af:alps/6.6.67-7.0.3.1_3.31__gb91cd181.ari:rca/2.2.20-7.0.3.1_3.29__g8e3fb5b.ari:atp/3.14.9:perftools-base/21.12.0:PrgEnv-intel/6.0.10:craype-haswell:cray-mpich/7.7.19:craype-hugepages2M:Base-opts/2.4.142-7.0.3.1_3.14__g8f27585.ari
 
 //CXX compiler
 CMAKE_CXX_COMPILER:FILEPATH=/opt/cray/pe/craype/2.7.10/bin/CC

@@ -128,6 +128,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named benchmark-openmp-nested
+
+# Build rule for target.
+benchmark-openmp-nested: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 benchmark-openmp-nested
+.PHONY : benchmark-openmp-nested
+
+# fast build rule for target.
+benchmark-openmp-nested/fast:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-nested.dir/build.make CMakeFiles/benchmark-openmp-nested.dir/build
+.PHONY : benchmark-openmp-nested/fast
+
+#=============================================================================
 # Target rules for targets named benchmark-openmp
 
 # Build rule for target.
@@ -139,6 +152,19 @@ benchmark-openmp: cmake_check_build_system
 benchmark-openmp/fast:
 	$(MAKE) -f CMakeFiles/benchmark-openmp.dir/build.make CMakeFiles/benchmark-openmp.dir/build
 .PHONY : benchmark-openmp/fast
+
+#=============================================================================
+# Target rules for targets named benchmark-openmp-outer
+
+# Build rule for target.
+benchmark-openmp-outer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 benchmark-openmp-outer
+.PHONY : benchmark-openmp-outer
+
+# fast build rule for target.
+benchmark-openmp-outer/fast:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-outer.dir/build.make CMakeFiles/benchmark-openmp-outer.dir/build
+.PHONY : benchmark-openmp-outer/fast
 
 #=============================================================================
 # Target rules for targets named benchmark-blas
@@ -178,6 +204,19 @@ benchmark-basic: cmake_check_build_system
 benchmark-basic/fast:
 	$(MAKE) -f CMakeFiles/benchmark-basic.dir/build.make CMakeFiles/benchmark-basic.dir/build
 .PHONY : benchmark-basic/fast
+
+#=============================================================================
+# Target rules for targets named benchmark-openmp-inner
+
+# Build rule for target.
+benchmark-openmp-inner: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 benchmark-openmp-inner
+.PHONY : benchmark-openmp-inner
+
+# fast build rule for target.
+benchmark-openmp-inner/fast:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-inner.dir/build.make CMakeFiles/benchmark-openmp-inner.dir/build
+.PHONY : benchmark-openmp-inner/fast
 
 #=============================================================================
 # Target rules for targets named benchmark
@@ -273,6 +312,87 @@ dgemv-blas.cpp.s:
 	$(MAKE) -f CMakeFiles/benchmark-blas.dir/build.make CMakeFiles/benchmark-blas.dir/dgemv-blas.cpp.s
 .PHONY : dgemv-blas.cpp.s
 
+dgemv-openmp-inner.o: dgemv-openmp-inner.cpp.o
+
+.PHONY : dgemv-openmp-inner.o
+
+# target to build an object file
+dgemv-openmp-inner.cpp.o:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-inner.dir/build.make CMakeFiles/benchmark-openmp-inner.dir/dgemv-openmp-inner.cpp.o
+.PHONY : dgemv-openmp-inner.cpp.o
+
+dgemv-openmp-inner.i: dgemv-openmp-inner.cpp.i
+
+.PHONY : dgemv-openmp-inner.i
+
+# target to preprocess a source file
+dgemv-openmp-inner.cpp.i:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-inner.dir/build.make CMakeFiles/benchmark-openmp-inner.dir/dgemv-openmp-inner.cpp.i
+.PHONY : dgemv-openmp-inner.cpp.i
+
+dgemv-openmp-inner.s: dgemv-openmp-inner.cpp.s
+
+.PHONY : dgemv-openmp-inner.s
+
+# target to generate assembly for a file
+dgemv-openmp-inner.cpp.s:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-inner.dir/build.make CMakeFiles/benchmark-openmp-inner.dir/dgemv-openmp-inner.cpp.s
+.PHONY : dgemv-openmp-inner.cpp.s
+
+dgemv-openmp-nested.o: dgemv-openmp-nested.cpp.o
+
+.PHONY : dgemv-openmp-nested.o
+
+# target to build an object file
+dgemv-openmp-nested.cpp.o:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-nested.dir/build.make CMakeFiles/benchmark-openmp-nested.dir/dgemv-openmp-nested.cpp.o
+.PHONY : dgemv-openmp-nested.cpp.o
+
+dgemv-openmp-nested.i: dgemv-openmp-nested.cpp.i
+
+.PHONY : dgemv-openmp-nested.i
+
+# target to preprocess a source file
+dgemv-openmp-nested.cpp.i:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-nested.dir/build.make CMakeFiles/benchmark-openmp-nested.dir/dgemv-openmp-nested.cpp.i
+.PHONY : dgemv-openmp-nested.cpp.i
+
+dgemv-openmp-nested.s: dgemv-openmp-nested.cpp.s
+
+.PHONY : dgemv-openmp-nested.s
+
+# target to generate assembly for a file
+dgemv-openmp-nested.cpp.s:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-nested.dir/build.make CMakeFiles/benchmark-openmp-nested.dir/dgemv-openmp-nested.cpp.s
+.PHONY : dgemv-openmp-nested.cpp.s
+
+dgemv-openmp-outer.o: dgemv-openmp-outer.cpp.o
+
+.PHONY : dgemv-openmp-outer.o
+
+# target to build an object file
+dgemv-openmp-outer.cpp.o:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-outer.dir/build.make CMakeFiles/benchmark-openmp-outer.dir/dgemv-openmp-outer.cpp.o
+.PHONY : dgemv-openmp-outer.cpp.o
+
+dgemv-openmp-outer.i: dgemv-openmp-outer.cpp.i
+
+.PHONY : dgemv-openmp-outer.i
+
+# target to preprocess a source file
+dgemv-openmp-outer.cpp.i:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-outer.dir/build.make CMakeFiles/benchmark-openmp-outer.dir/dgemv-openmp-outer.cpp.i
+.PHONY : dgemv-openmp-outer.cpp.i
+
+dgemv-openmp-outer.s: dgemv-openmp-outer.cpp.s
+
+.PHONY : dgemv-openmp-outer.s
+
+# target to generate assembly for a file
+dgemv-openmp-outer.cpp.s:
+	$(MAKE) -f CMakeFiles/benchmark-openmp-outer.dir/build.make CMakeFiles/benchmark-openmp-outer.dir/dgemv-openmp-outer.cpp.s
+.PHONY : dgemv-openmp-outer.cpp.s
+
 dgemv-openmp.o: dgemv-openmp.cpp.o
 
 .PHONY : dgemv-openmp.o
@@ -339,6 +459,9 @@ help:
 	@echo "... benchmark-basic"
 	@echo "... benchmark-blas"
 	@echo "... benchmark-openmp"
+	@echo "... benchmark-openmp-inner"
+	@echo "... benchmark-openmp-nested"
+	@echo "... benchmark-openmp-outer"
 	@echo "... benchmark-vectorized"
 	@echo "... benchmark.o"
 	@echo "... benchmark.i"
@@ -349,6 +472,15 @@ help:
 	@echo "... dgemv-blas.o"
 	@echo "... dgemv-blas.i"
 	@echo "... dgemv-blas.s"
+	@echo "... dgemv-openmp-inner.o"
+	@echo "... dgemv-openmp-inner.i"
+	@echo "... dgemv-openmp-inner.s"
+	@echo "... dgemv-openmp-nested.o"
+	@echo "... dgemv-openmp-nested.i"
+	@echo "... dgemv-openmp-nested.s"
+	@echo "... dgemv-openmp-outer.o"
+	@echo "... dgemv-openmp-outer.i"
+	@echo "... dgemv-openmp-outer.s"
 	@echo "... dgemv-openmp.o"
 	@echo "... dgemv-openmp.i"
 	@echo "... dgemv-openmp.s"
